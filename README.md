@@ -18,7 +18,7 @@
 
 1. Clone the repo:
    ```bash
-   git clone https://github.com/farukh-javed/AI-News-Summarizer-with-LangChain-Llama3.1.1.git
+   git clone https://github.com/Ragunath041/AI-News-LangChain.git
    ```
 2. Install the dependencies:
    ```bash
