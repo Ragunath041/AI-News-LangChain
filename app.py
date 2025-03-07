@@ -17,7 +17,7 @@ st.title(":newspaper: News")
 categories = ["Technology","Sports","Entertainment","Weather","politics"]
 topic = st.text_input("Enter topic")
 
-url = f"https://newsapi.org/v2/everything?q={topic}&apiKey=150e6ae92c0a4df8abd894c5afc5cb3a"
+url = f"https://newsapi.org/v2/everything?q={topic}&apiKey=YOUR-API-KEY"
 
 if st.button("Get news and Summarize it"):
     response = requests.get(url)
